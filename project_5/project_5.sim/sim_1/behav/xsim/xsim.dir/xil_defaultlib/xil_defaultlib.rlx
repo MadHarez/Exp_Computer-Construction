@@ -1,0 +1,13 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/VivadoProject/vivado_5/project_5/project_5.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/VivadoProject/vivado_5/project_5/project_5.srcs/sim_1/new/Divider_tb.v,1745380781,verilog,,,,Divider_tb,,,,,,,,
+D:/VivadoProject/vivado_5/project_5/project_5.srcs/sources_1/ip/div_gen_0/sim/div_gen_0.vhd,1743565761,vhdl,,,,div_gen_0,,,,,,,,
+D:/VivadoProject/vivado_5/project_5/project_5.srcs/sources_1/ip/div_gen_1/sim/div_gen_1.vhd,1743565951,vhdl,,,,div_gen_1,,,,,,,,
+D:/VivadoProject/vivado_5/project_5/project_5.srcs/sources_1/new/ArrayDivider.v,1745381382,verilog,,D:/VivadoProject/vivado_5/project_5/project_5.srcs/sources_1/new/Display.v,,ArrayDivider,,,,,,,,
+D:/VivadoProject/vivado_5/project_5/project_5.srcs/sources_1/new/Display.v,1745380490,verilog,,D:/VivadoProject/vivado_5/project_5/project_5.srcs/sources_1/new/Divider.v,,Display,,,,,,,,
+D:/VivadoProject/vivado_5/project_5/project_5.srcs/sources_1/new/Divider.v,1745380983,verilog,,D:/VivadoProject/vivado_5/project_5/project_5.srcs/sources_1/new/IP_Divider.v,,Divider,,,,,,,,
+D:/VivadoProject/vivado_5/project_5/project_5.srcs/sources_1/new/IP_Divider.v,1745381836,verilog,,D:/VivadoProject/vivado_5/project_5/project_5.srcs/sources_1/new/Input.v,,IP_Divider,,,,,,,,
+D:/VivadoProject/vivado_5/project_5/project_5.srcs/sources_1/new/Input.v,1743578768,verilog,,D:/VivadoProject/vivado_5/project_5/project_5.srcs/sim_1/new/Divider_tb.v,,Input,,,,,,,,

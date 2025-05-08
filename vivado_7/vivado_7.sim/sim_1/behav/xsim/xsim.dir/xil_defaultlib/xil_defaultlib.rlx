@@ -1,0 +1,10 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/southernMD/vivado/vivado_7/vivado_7.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/southernMD/vivado/vivado_7/vivado_7.srcs/sim_1/new/REGS_Test.v,1742030521,verilog,,,,REGS_Test,,,,,,,,
+C:/Users/southernMD/vivado/vivado_7/vivado_7.srcs/sources_1/new/ALU.v,1742365915,verilog,,C:/Users/southernMD/vivado/vivado_7/vivado_7.srcs/sources_1/new/REGS.v,,ALU,,,,,,,,
+C:/Users/southernMD/vivado/vivado_7/vivado_7.srcs/sources_1/new/REGS.v,1742962260,verilog,,C:/Users/southernMD/vivado/vivado_7/vivado_7.srcs/sources_1/new/REGS_ALU.v,,REGS,,,,,,,,
+C:/Users/southernMD/vivado/vivado_7/vivado_7.srcs/sources_1/new/REGS_ALU.v,1742966744,verilog,,C:/Users/southernMD/vivado/vivado_7/vivado_7.srcs/sources_1/new/output_val.v,,REGS_ALU,,,,,,,,
+C:/Users/southernMD/vivado/vivado_7/vivado_7.srcs/sources_1/new/output_val.v,1742346374,verilog,,C:/Users/southernMD/vivado/vivado_7/vivado_7.srcs/sim_1/new/REGS_Test.v,,output_val,,,,,,,,

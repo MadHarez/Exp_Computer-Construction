@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../vivado_3.srcs/sources_1/new/pre_4_adder.v" \
+"../../../../vivado_3.srcs/sim_1/new/pre_4_adder_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

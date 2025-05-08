@@ -1,0 +1,10 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/southernMD/vivado/project_10/project_10/project_10.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sim_1/new/Fetch_Inst_Code_tb.v,1745312182,verilog,,,,Fetch_Inst_Code_tb,,,,,,,,
+C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/ip/InstROM/sim/InstROM.v,1745311427,verilog,,C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/Fetch_Code.v,,InstROM,,,,,,,,
+C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/Fetch_Code.v,1745312358,verilog,,C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/Fetch_Inst_Code.v,,PC_M,,,,,,,,
+C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/Fetch_Inst_Code.v,1745310169,verilog,,C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/Seg_Display.v,,Fetch_Inst_Code,,,,,,,,
+C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/Seg_Display.v,1745312511,verilog,,C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sim_1/new/Fetch_Inst_Code_tb.v,,Seg_Display,,,,,,,,

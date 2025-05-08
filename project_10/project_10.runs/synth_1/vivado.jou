@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu May  1 14:09:49 2025
+# Process ID: 25096
+# Current directory: D:/VivadoProject/project_10/project_10.runs/synth_1
+# Command line: vivado.exe -log Fetch_Inst_Code.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Fetch_Inst_Code.tcl
+# Log file: D:/VivadoProject/project_10/project_10.runs/synth_1/Fetch_Inst_Code.vds
+# Journal file: D:/VivadoProject/project_10/project_10.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Fetch_Inst_Code.tcl -notrace

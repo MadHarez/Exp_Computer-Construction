@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../project_4.srcs/sources_1/ip/unsign_multiplier/sim/unsign_multiplier.vhd" \
+
+nosort

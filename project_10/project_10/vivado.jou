@@ -1,0 +1,179 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Apr 22 15:26:45 2025
+# Process ID: 25368
+# Current directory: C:/Users/southernMD/vivado/project_10/project_10
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25976 C:\Users\southernMD\vivado\project_10\project_10\project_10.xpr
+# Log file: C:/Users/southernMD/vivado/project_10/project_10/vivado.log
+# Journal file: C:/Users/southernMD/vivado/project_10/project_10\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/southernMD/vivado/project_10/project_10/project_10.xpr
+update_compile_order -fileset sources_1
+generate_target Simulation [get_files C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/ip/InstROM/InstROM.xci]
+close [ open C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/R_CPU_TEST.mem w ]
+add_files C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/R_CPU_TEST.mem
+export_ip_user_files -of_objects  [get_files C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/R_CPU_TEST.mem] -no_script -reset -force -quiet
+remove_files  C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/R_CPU_TEST.mem
+file delete -force C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/R_CPU_TEST.mem
+close [ open C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/R_CUP_TEST.mem w ]
+add_files C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/R_CUP_TEST.mem
+export_ip_user_files -of_objects  [get_files C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/R_CUP_TEST.mem] -no_script -reset -force -quiet
+remove_files  C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/R_CUP_TEST.mem
+file delete -force C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/R_CUP_TEST.mem
+close [ open C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/R_CPUT_TEST.coe w ]
+add_files C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/R_CPUT_TEST.coe
+set_property file_type {Memory File} [get_files  C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/R_CPUT_TEST.coe]
+export_ip_user_files -of_objects  [get_files C:/Users/southernMD/vivado/Qtspim/R_CPU_Test.coe] -no_script -reset -force -quiet
+remove_files  C:/Users/southernMD/vivado/Qtspim/R_CPU_Test.coe
+export_ip_user_files -of_objects  [get_files C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/R_CPUT_TEST.coe] -no_script -reset -force -quiet
+remove_files  C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/R_CPUT_TEST.coe
+file delete -force C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/new/R_CPUT_TEST.coe
+set_property -dict [list CONFIG.Coe_File {C:/Users/southernMD/vivado/project_10/project_10/R_CPU_TEST.coe}] [get_ips InstROM]
+generate_target all [get_files  C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/ip/InstROM/InstROM.xci]
+catch { config_ip_cache -export [get_ips -all InstROM] }
+export_ip_user_files -of_objects [get_files C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/ip/InstROM/InstROM.xci] -no_script -sync -force -quiet
+reset_run InstROM_synth_1
+launch_runs -jobs 6 InstROM_synth_1
+export_simulation -of_objects [get_files C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/ip/InstROM/InstROM.xci] -directory C:/Users/southernMD/vivado/project_10/project_10/project_10.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/southernMD/vivado/project_10/project_10/project_10.ip_user_files -ipstatic_source_dir C:/Users/southernMD/vivado/project_10/project_10/project_10.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/southernMD/vivado/project_10/project_10/project_10.cache/compile_simlib/modelsim} {questa=C:/Users/southernMD/vivado/project_10/project_10/project_10.cache/compile_simlib/questa} {riviera=C:/Users/southernMD/vivado/project_10/project_10/project_10.cache/compile_simlib/riviera} {activehdl=C:/Users/southernMD/vivado/project_10/project_10/project_10.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+launch_simulation
+source Fetch_Inst_Code_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source Fetch_Inst_Code_tb.tcl
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source Fetch_Inst_Code_tb.tcl
+close_sim
+launch_simulation
+source Fetch_Inst_Code_tb.tcl
+close_sim
+launch_simulation
+source Fetch_Inst_Code_tb.tcl
+relaunch_sim
+open_project C:/Users/southernMD/vivado/vivado_8/vivado_8.xpr
+update_compile_order -fileset sources_1
+current_project project_10
+relaunch_sim
+relaunch_sim
+set_property -dict [list CONFIG.Operating_Mode_A {READ_FIRST} CONFIG.Enable_A {Always_Enabled}] [get_ips InstROM]
+generate_target all [get_files  C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/ip/InstROM/InstROM.xci]
+catch { config_ip_cache -export [get_ips -all InstROM] }
+export_ip_user_files -of_objects [get_files C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/ip/InstROM/InstROM.xci] -no_script -sync -force -quiet
+reset_run InstROM_synth_1
+launch_runs -jobs 6 InstROM_synth_1
+export_simulation -of_objects [get_files C:/Users/southernMD/vivado/project_10/project_10/project_10.srcs/sources_1/ip/InstROM/InstROM.xci] -directory C:/Users/southernMD/vivado/project_10/project_10/project_10.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/southernMD/vivado/project_10/project_10/project_10.ip_user_files -ipstatic_source_dir C:/Users/southernMD/vivado/project_10/project_10/project_10.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/southernMD/vivado/project_10/project_10/project_10.cache/compile_simlib/modelsim} {questa=C:/Users/southernMD/vivado/project_10/project_10/project_10.cache/compile_simlib/questa} {riviera=C:/Users/southernMD/vivado/project_10/project_10/project_10.cache/compile_simlib/riviera} {activehdl=C:/Users/southernMD/vivado/project_10/project_10/project_10.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+current_project vivado_8
+current_project project_10
+current_project vivado_8
+current_project project_10
+close_sim
+launch_simulation
+source Fetch_Inst_Code_tb.tcl
+relaunch_sim
+current_project vivado_8
+current_project project_10
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+relaunch_sim
+close_sim
+launch_simulation
+source Fetch_Inst_Code_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {5000ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source Fetch_Inst_Code_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source Fetch_Inst_Code_tb.tcl
+close_sim
+launch_simulation
+source Fetch_Inst_Code_tb.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+current_project vivado_8
+close_project
+open_project C:/Users/southernMD/vivado/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/southernMD/vivado/vivado_1/vivado_1.xpr
+update_compile_order -fileset sources_1
+current_project project_10
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+close_sim
+close_project
+close_project
+open_project C:/Users/southernMD/vivado/vivado_5/project_5/project_5.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source Divider_tb.tcl
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_project C:/Users/southernMD/vivado/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/southernMD/vivado/vivado_1/vivado_1.xpr
+update_compile_order -fileset sources_1
+current_project project_5
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+close_sim
+close_project
+close_project
+open_project C:/Users/southernMD/vivado/vivado_5/project_5/project_5.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+launch_simulation
+source Divider_tb.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+close_sim

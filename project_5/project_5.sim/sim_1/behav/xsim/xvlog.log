@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VivadoProject/vivado_5/project_5/project_5.srcs/sources_1/new/ArrayDivider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ArrayDivider
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VivadoProject/vivado_5/project_5/project_5.srcs/sources_1/new/Display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Display
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VivadoProject/vivado_5/project_5/project_5.srcs/sources_1/new/Divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VivadoProject/vivado_5/project_5/project_5.srcs/sources_1/new/IP_Divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IP_Divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VivadoProject/vivado_5/project_5/project_5.srcs/sources_1/new/Input.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Input
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VivadoProject/vivado_5/project_5/project_5.srcs/sim_1/new/Divider_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Divider_tb

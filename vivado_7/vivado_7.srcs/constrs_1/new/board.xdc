@@ -1,0 +1,97 @@
+set_property BITSTREAM.GENERAL.COMPRESS TRUE [current_design]  
+
+#当Write_T为高电平时在clk上沿时通过开关写入数据，输入地址开头5个，操作符结尾4个，第二排前5个读地址A，第二排后5个读地址B
+#当Write_val_btn时直接输入数据input_val
+# W_Addr <= input_all[4:0];
+# ALU_OP <= input_all[15:12];
+# R_Addr_A <= input_all[19:16];
+# R_Addr_B <= input_all[31:27];
+# input_val <= input_all[31:0];
+set_property PULLDOWN true [get_ports input_all]                       
+set_property IOSTANDARD LVCMOS18 [get_ports input_all]          
+set_property PACKAGE_PIN T3 [get_ports {input_all[0]}]                 
+set_property PACKAGE_PIN U3 [get_ports {input_all[1]}]                 
+set_property PACKAGE_PIN T4 [get_ports {input_all[2]}]                 
+set_property PACKAGE_PIN V3 [get_ports {input_all[3]}]                 
+set_property PACKAGE_PIN V4 [get_ports {input_all[4]}]                 
+set_property PACKAGE_PIN W4 [get_ports {input_all[5]}]                 
+set_property PACKAGE_PIN Y4 [get_ports {input_all[6]}]                 
+set_property PACKAGE_PIN Y6 [get_ports {input_all[7]}]                 
+set_property PACKAGE_PIN W7 [get_ports {input_all[8]}]                 
+set_property PACKAGE_PIN Y8 [get_ports {input_all[9]}]                
+set_property PACKAGE_PIN Y7 [get_ports {input_all[10]}]                
+set_property PACKAGE_PIN T1 [get_ports {input_all[11]}]                
+set_property PACKAGE_PIN U1 [get_ports {input_all[12]}]                
+set_property PACKAGE_PIN U2 [get_ports {input_all[13]}]                
+set_property PACKAGE_PIN W1 [get_ports {input_all[14]}]                
+set_property PACKAGE_PIN W2 [get_ports {input_all[15]}]                
+set_property PACKAGE_PIN Y1 [get_ports {input_all[16]}]                
+set_property PACKAGE_PIN AA1 [get_ports {input_all[17]}]               
+set_property PACKAGE_PIN V2 [get_ports {input_all[18]}]                
+set_property PACKAGE_PIN Y2 [get_ports {input_all[19]}]                
+set_property PACKAGE_PIN AB1 [get_ports {input_all[20]}]               
+set_property PACKAGE_PIN AB2 [get_ports {input_all[21]}]               
+set_property PACKAGE_PIN AB3 [get_ports {input_all[22]}]               
+set_property PACKAGE_PIN AB5 [get_ports {input_all[23]}]               
+set_property PACKAGE_PIN AA6 [get_ports {input_all[24]}]               
+set_property PACKAGE_PIN R2 [get_ports {input_all[25]}]
+set_property PACKAGE_PIN R3 [get_ports {input_all[26]}]
+set_property PACKAGE_PIN T6 [get_ports {input_all[27]}]
+set_property PACKAGE_PIN R6 [get_ports {input_all[28]}]
+set_property PACKAGE_PIN U7 [get_ports {input_all[29]}]
+set_property PACKAGE_PIN AB7 [get_ports {input_all[30]}]
+set_property PACKAGE_PIN AB8 [get_ports {input_all[31]}]
+
+#按键keys0~3，0显示a 1显示b 2显示f 3显示ZFOF ,Write_Reg写入数据信号，rst清空32位寄存器群，Write_T存储地址与操作数据Write_val_btn主动输入数据
+set_property IOSTANDARD LVCMOS18 [get_ports key1]       
+set_property PACKAGE_PIN R4 [get_ports key1]   
+set_property IOSTANDARD LVCMOS18 [get_ports key2]       
+set_property PACKAGE_PIN AA4 [get_ports key2]           
+set_property IOSTANDARD LVCMOS18 [get_ports key3]       
+set_property PACKAGE_PIN AB6 [get_ports key3]         
+set_property IOSTANDARD LVCMOS18 [get_ports key4]       
+set_property PACKAGE_PIN T5 [get_ports key4]     
+set_property IOSTANDARD LVCMOS18 [get_ports Write_Reg]
+set_property PACKAGE_PIN V8 [get_ports Write_Reg]    
+set_property IOSTANDARD LVCMOS18 [get_ports rst]
+set_property PACKAGE_PIN AA8 [get_ports rst] 
+
+set_property IOSTANDARD LVCMOS18 [get_ports Write_T]               
+set_property PACKAGE_PIN V9 [get_ports Write_T]         
+
+set_property IOSTANDARD LVCMOS18 [get_ports Write_val_btn]               
+set_property PACKAGE_PIN Y9 [get_ports Write_val_btn]         
+
+#OF ZF
+set_property IOSTANDARD LVCMOS18 [get_ports out_ZF_OF]
+set_property PACKAGE_PIN R1 [get_ports out_ZF_OF[0]]
+set_property PACKAGE_PIN P2 [get_ports out_ZF_OF[1]]
+
+#数码管
+set_property IOSTANDARD LVCMOS18 [get_ports seg]
+set_property PACKAGE_PIN H19 [get_ports {seg[7]}]
+set_property PACKAGE_PIN G20 [get_ports {seg[6]}]
+set_property PACKAGE_PIN J22 [get_ports {seg[5]}]
+set_property PACKAGE_PIN K22 [get_ports {seg[4]}]
+set_property PACKAGE_PIN K21 [get_ports {seg[3]}]
+set_property PACKAGE_PIN H20 [get_ports {seg[2]}]
+set_property PACKAGE_PIN H22 [get_ports {seg[1]}]
+set_property PACKAGE_PIN J21 [get_ports {seg[0]}]
+set_property IOSTANDARD LVCMOS18 [get_ports which]
+set_property PACKAGE_PIN N22 [get_ports {which[0]}]
+set_property PACKAGE_PIN M21 [get_ports {which[1]}]
+set_property PACKAGE_PIN M22 [get_ports {which[2]}]
+set_property -dict {IOSTANDARD LVCMOS18 PACKAGE_PIN L21} [get_ports enable]
+set_property -dict {IOSTANDARD LVCMOS18 PACKAGE_PIN H4} [get_ports clk]
+
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets clk_IBUF]   
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets swb_IBUF[1]]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets swb_IBUF[2]]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets swb_IBUF[3]]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets swb_IBUF[4]]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets swb_IBUF[5]]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets swb_IBUF[6]]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets swb_IBUF[7]]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets swb_IBUF[8]]
+
+set_property SEVERITY {Warning} [get_drc_checks UCIO-1]

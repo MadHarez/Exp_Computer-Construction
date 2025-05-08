@@ -1,0 +1,104 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu May  8 14:14:02 2025
+| Host         : AuraLios_Laptop running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file CPU_control_sets_placed.rpt
+| Design       : CPU
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    38 |
+| Unused register locations in slices containing registers |    19 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            1 |
+|      3 |            2 |
+|    16+ |           35 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               7 |            3 |
+| No           | No                    | Yes                    |             102 |           31 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              32 |           18 |
+| Yes          | No                    | Yes                    |            1024 |          375 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+---------------------------------+------------------+------------------+----------------+
+|         Clock Signal         |          Enable Signal          | Set/Reset Signal | Slice Load Count | Bel Load Count |
++------------------------------+---------------------------------+------------------+------------------+----------------+
+|  PC_init/Inst_code_reg[26]_0 |                                 |                  |                1 |              1 |
+|  clk_IBUF_BUFG               |                                 |                  |                1 |              3 |
+| ~clk_IBUF_BUFG               |                                 |                  |                1 |              3 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_26[0] | rst_IBUF         |                9 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_11[0] | rst_IBUF         |               10 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_28[0] | rst_IBUF         |               15 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_10[0] | rst_IBUF         |               15 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_13[0] | rst_IBUF         |               12 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_16[0] | rst_IBUF         |                9 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_30[0] | rst_IBUF         |               15 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_4[0]  | rst_IBUF         |               13 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_6[0]  | rst_IBUF         |                9 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_22[0] | rst_IBUF         |               18 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_7[0]  | rst_IBUF         |                9 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_20[0] | rst_IBUF         |                9 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_1[0]  | rst_IBUF         |               12 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_23[0] | rst_IBUF         |               10 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_8[0]  | rst_IBUF         |               13 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_27[0] | rst_IBUF         |               13 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_17[0] | rst_IBUF         |               12 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_0[0]  | rst_IBUF         |               13 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_25[0] | rst_IBUF         |               13 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_9[0]  | rst_IBUF         |               11 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_19[0] | rst_IBUF         |               14 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_29[0] | rst_IBUF         |               12 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_15[0] | rst_IBUF         |                8 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_5[0]  | rst_IBUF         |               13 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_18[0] | rst_IBUF         |                9 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_24[0] | rst_IBUF         |               12 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_3[0]  | rst_IBUF         |               10 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_14[0] | rst_IBUF         |               12 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_12[0] | rst_IBUF         |                9 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_21[0] | rst_IBUF         |               15 |             32 |
+|  clk_IBUF_BUFG               | PC_init/Inst_code_reg[27]_2[0]  | rst_IBUF         |               12 |             32 |
+|  clk_IBUF_BUFG               | display_data[31]_i_1_n_0        |                  |               18 |             32 |
+|  clk_IBUF_BUFG               | PC_init/E[0]                    | rst_IBUF         |                9 |             32 |
+|  mclk_IBUF_BUFG              | PC_init/we                      |                  |                8 |             32 |
+| ~clk_IBUF_BUFG               |                                 | rst_IBUF         |               31 |            102 |
++------------------------------+---------------------------------+------------------+------------------+----------------+
+
+

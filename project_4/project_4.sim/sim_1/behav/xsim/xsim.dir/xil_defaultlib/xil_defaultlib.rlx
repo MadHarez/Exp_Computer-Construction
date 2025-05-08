@@ -1,0 +1,10 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/VivadoProject/project_4/project_4.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/VivadoProject/project_4/project_4.srcs/sim_1/new/Multiplier_Test.v,1743555924,verilog,,,,Multiplier_tb,,,,,,,,
+D:/VivadoProject/project_4/project_4.srcs/sources_1/ip/sign_multiplier/sim/sign_multiplier.vhd,1743084884,vhdl,,,,sign_multiplier,,,,,,,,
+D:/VivadoProject/project_4/project_4.srcs/sources_1/ip/unsign_multiplier/sim/unsign_multiplier.vhd,1743084829,vhdl,,,,unsign_multiplier,,,,,,,,
+D:/VivadoProject/project_4/project_4.srcs/sources_1/new/Display.v,1743415916,verilog,,D:/VivadoProject/project_4/project_4.srcs/sources_1/new/Multiplier.v,,Display,,,,,,,,
+D:/VivadoProject/project_4/project_4.srcs/sources_1/new/Multiplier.v,1743555372,verilog,,D:/VivadoProject/project_4/project_4.srcs/sim_1/new/Multiplier_Test.v,,Multiplier,,,,,,,,

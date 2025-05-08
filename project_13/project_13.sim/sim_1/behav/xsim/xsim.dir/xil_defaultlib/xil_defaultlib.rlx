@@ -1,0 +1,15 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/VivadoProject/project_13/project_13.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/VivadoProject/project_13/project_13.srcs/sim_1/new/CPU_Test.v,1746685288,verilog,,,,CPU_tb,,,,,,,,
+D:/VivadoProject/project_13/project_13.srcs/sources_1/ip/Inst_ROM/sim/Inst_ROM.v,1746070023,verilog,,D:/VivadoProject/project_13/project_13.srcs/sources_1/ip/RAM/sim/RAM.v,,Inst_ROM,,,,,,,,
+D:/VivadoProject/project_13/project_13.srcs/sources_1/ip/RAM/sim/RAM.v,1746096037,verilog,,D:/VivadoProject/project_13/project_13.srcs/sources_1/new/OP_Func.v,,RAM,,,,,,,,
+D:/VivadoProject/project_13/project_13.srcs/sources_1/new/ALU.v,1746084260,verilog,,D:/VivadoProject/project_13/project_13.srcs/sources_1/new/Display.v,,ALU,,,,,,,,
+D:/VivadoProject/project_13/project_13.srcs/sources_1/new/CPU.v,1746684344,verilog,,D:/VivadoProject/project_13/project_13.srcs/sources_1/new/ALU.v,,CPU,,,,,,,,
+D:/VivadoProject/project_13/project_13.srcs/sources_1/new/Display.v,1746578329,verilog,,D:/VivadoProject/project_13/project_13.srcs/sources_1/new/REGS.v,,Display,,,,,,,,
+D:/VivadoProject/project_13/project_13.srcs/sources_1/new/OP_Func.v,1746090273,verilog,,D:/VivadoProject/project_13/project_13.srcs/sources_1/new/PC.v,,OP_Func,,,,,,,,
+D:/VivadoProject/project_13/project_13.srcs/sources_1/new/PC.v,1746674282,verilog,,D:/VivadoProject/project_13/project_13.srcs/sources_1/new/REGS_ALU.v,,PC,,,,,,,,
+D:/VivadoProject/project_13/project_13.srcs/sources_1/new/REGS.v,1746579282,verilog,,D:/VivadoProject/project_13/project_13.srcs/sim_1/new/CPU_Test.v,,REGS,,,,,,,,
+D:/VivadoProject/project_13/project_13.srcs/sources_1/new/REGS_ALU.v,1746674574,verilog,,D:/VivadoProject/project_13/project_13.srcs/sources_1/new/CPU.v,,REGS_ALU,,,,,,,,

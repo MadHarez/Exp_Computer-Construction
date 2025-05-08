@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Apr 22 15:25:14 2025
+# Process ID: 20896
+# Current directory: C:/Users/southernMD/vivado/project_10/project_10
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19808 C:\Users\southernMD\vivado\project_10\project_10\project_10.xpr
+# Log file: C:/Users/southernMD/vivado/project_10/project_10/vivado.log
+# Journal file: C:/Users/southernMD/vivado/project_10/project_10\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/southernMD/vivado/project_10/project_10/project_10.xpr
+INFO: [Project 1-313] Project file moved from 'D:/VivadoProject/project_10' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/southernMD/vivado/Qtspim/R_CPU_Test.coe', nor could it be found using path 'D:/Qtspim/R_CPU_Test.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 796.551 ; gain = 167.301
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 22 15:25:44 2025...

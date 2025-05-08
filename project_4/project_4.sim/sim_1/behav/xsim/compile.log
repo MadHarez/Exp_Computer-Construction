@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VivadoProject/project_4/project_4.srcs/sources_1/new/Display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Display
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VivadoProject/project_4/project_4.srcs/sources_1/new/Multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VivadoProject/project_4/project_4.srcs/sim_1/new/Multiplier_Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplier_tb

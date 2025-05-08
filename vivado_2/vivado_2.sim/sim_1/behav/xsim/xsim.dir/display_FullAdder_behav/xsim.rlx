@@ -1,0 +1,12 @@
+
+{ 
+    crc :  5374836593364632465  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto da5a0fe4db534021a2a67d5ccdc97bb3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot display_FullAdder_behav xil_defaultlib.display_FullAdder xil_defaultlib.glbl" , 
+    buildDate : "Dec  7 2018" , 
+    buildTime : "00:33:28" , 
+    linkCmd : "D:\\Vivado\\Vivado\\2018.3\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/display_FullAdder_behav/xsimk.exe\"   \"xsim.dir/display_FullAdder_behav/obj/xsim_0.win64.obj\" \"xsim.dir/display_FullAdder_behav/obj/xsim_1.win64.obj\" -L\"D:\\Vivado\\Vivado\\2018.3\\lib\\win64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

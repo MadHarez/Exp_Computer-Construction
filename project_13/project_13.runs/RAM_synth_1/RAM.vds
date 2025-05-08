@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed May  7 08:33:58 2025
+# Process ID: 4568
+# Current directory: D:/VivadoProject/project_13/project_13.runs/RAM_synth_1
+# Command line: vivado.exe -log RAM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RAM.tcl
+# Log file: D:/VivadoProject/project_13/project_13.runs/RAM_synth_1/RAM.vds
+# Journal file: D:/VivadoProject/project_13/project_13.runs/RAM_synth_1\vivado.jou
+#-----------------------------------------------------------
+source RAM.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP RAM, cache-ID = 5e336e944902bdda.
+INFO: [Common 17-206] Exiting Vivado at Wed May  7 08:34:04 2025...

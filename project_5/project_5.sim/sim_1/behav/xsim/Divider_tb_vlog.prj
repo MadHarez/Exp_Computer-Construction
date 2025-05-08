@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_5.srcs/sources_1/new/ArrayDivider.v" \
+"../../../../project_5.srcs/sources_1/new/Display.v" \
+"../../../../project_5.srcs/sources_1/new/Divider.v" \
+"../../../../project_5.srcs/sources_1/new/IP_Divider.v" \
+"../../../../project_5.srcs/sources_1/new/Input.v" \
+"../../../../project_5.srcs/sim_1/new/Divider_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

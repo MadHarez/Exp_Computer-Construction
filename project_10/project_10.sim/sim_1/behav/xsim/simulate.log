@@ -1,0 +1,8 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module Fetch_Inst_Code_tb.u0.PC_ins.InstROM_ins.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+         0 --- 00000000 --- 7_2 0
+         0 --- 00000000 --- 7_2 0
+$finish called at time : 340 ns : File "D:/VivadoProject/project_10/project_10.srcs/sim_1/new/Fetch_Inst_Code_tb.v" Line 52

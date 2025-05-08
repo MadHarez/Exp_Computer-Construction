@@ -1,0 +1,41 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module CPU_tb.uut.PC_init.rom.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+时间:                 5000
+指令码: 00000000
+数码管选择信号: which=000, seg=xxxxxxxx, enable=1
+显示模式: ALU运算结果
+时间:                17000
+指令码: 00000000
+数码管选择信号: which=000, seg=00000011, enable=1
+显示模式: ALU运算结果
+时间:                29000
+指令码: 00002020
+数码管选择信号: which=000, seg=00000011, enable=1
+显示模式: ALU运算结果
+=== 测试1: 显示ALU运算结果 ===
+时间:                41000
+指令码: 20050014
+数码管选择信号: which=000, seg=00000011, enable=1
+显示模式: ALU运算结果
+时间:                53000
+指令码: 2006000b
+数码管选择信号: which=000, seg=00000011, enable=1
+显示模式: ALU运算结果
+时间:                65000
+指令码: 0c000004
+数码管选择信号: which=000, seg=00000011, enable=1
+显示模式: ALU运算结果
+时间:                77000
+指令码: 00804020
+数码管选择信号: which=000, seg=00000011, enable=1
+显示模式: ALU运算结果
+WARNING in CPU_tb.uut.RAM_init.inst at time                83000 ns: 
+Reading from out-of-range address. Max address in CPU_tb.uut.RAM_init.inst is          63
+时间:                89000
+指令码: xxxxxxxx
+数码管选择信号: which=001, seg=00000011, enable=1
+显示模式: ALU运算结果

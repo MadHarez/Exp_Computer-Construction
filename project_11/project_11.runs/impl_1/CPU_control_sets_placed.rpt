@@ -1,0 +1,106 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu May  1 12:00:15 2025
+| Host         : AuraLios_Laptop running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file CPU_control_sets_placed.rpt
+| Design       : CPU
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    38 |
+| Unused register locations in slices containing registers |    27 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            1 |
+|      3 |            1 |
+|      6 |            1 |
+|     15 |            1 |
+|    16+ |           34 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              21 |            8 |
+| No           | No                    | Yes                    |              41 |           12 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |            1039 |          441 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------+------------------------------------+------------------+------------------+----------------+
+|           Clock Signal          |            Enable Signal           | Set/Reset Signal | Slice Load Count | Bel Load Count |
++---------------------------------+------------------------------------+------------------+------------------+----------------+
+|  regs_alu/ALU_1/C32_reg_i_2_n_0 |                                    |                  |                1 |              1 |
+| ~clk_IBUF_BUFG                  |                                    |                  |                1 |              3 |
+| ~mclk_IBUF_BUFG                 |                                    | rst_IBUF         |                2 |              6 |
+|  clk_IBUF_BUFG                  | Write_Reg_IBUF                     | rst_IBUF         |                5 |             15 |
+|  clk_IBUF_BUFG                  |                                    |                  |                6 |             17 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[11][31]_i_1_n_0 | rst_IBUF         |               11 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[0][31]_i_1_n_0  | rst_IBUF         |                8 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[1][31]_i_1_n_0  | rst_IBUF         |               10 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[12][31]_i_1_n_0 | rst_IBUF         |               10 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[10][31]_i_1_n_0 | rst_IBUF         |                9 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[14][31]_i_1_n_0 | rst_IBUF         |               11 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[17][31]_i_1_n_0 | rst_IBUF         |               12 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[20][31]_i_1_n_0 | rst_IBUF         |               10 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[15][31]_i_1_n_0 | rst_IBUF         |               10 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[22][31]_i_1_n_0 | rst_IBUF         |               12 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[23][31]_i_1_n_0 | rst_IBUF         |               16 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[2][31]_i_1_n_0  | rst_IBUF         |               14 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[24][31]_i_1_n_0 | rst_IBUF         |               17 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[26][31]_i_1_n_0 | rst_IBUF         |               17 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[8][31]_i_1_n_0  | rst_IBUF         |               15 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[18][31]_i_1_n_0 | rst_IBUF         |               12 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[13][31]_i_1_n_0 | rst_IBUF         |               13 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[21][31]_i_1_n_0 | rst_IBUF         |               11 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[16][31]_i_1_n_0 | rst_IBUF         |               11 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[25][31]_i_1_n_0 | rst_IBUF         |               12 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[27][31]_i_1_n_0 | rst_IBUF         |               11 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[29][31]_i_1_n_0 | rst_IBUF         |               16 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[30][31]_i_1_n_0 | rst_IBUF         |               19 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[3][31]_i_1_n_0  | rst_IBUF         |               11 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[4][31]_i_1_n_0  | rst_IBUF         |               17 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[28][31]_i_1_n_0 | rst_IBUF         |               16 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[31][31]_i_1_n_0 | rst_IBUF         |               24 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[5][31]_i_1_n_0  | rst_IBUF         |               14 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[6][31]_i_1_n_0  | rst_IBUF         |               13 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[7][31]_i_1_n_0  | rst_IBUF         |               24 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[19][31]_i_1_n_0 | rst_IBUF         |               10 |             32 |
+|  clk_IBUF_BUFG                  | regs_alu/REG_Files[9][31]_i_1_n_0  | rst_IBUF         |               20 |             32 |
+|  clk_IBUF_BUFG                  |                                    | rst_IBUF         |               10 |             35 |
++---------------------------------+------------------------------------+------------------+------------------+----------------+
+
+

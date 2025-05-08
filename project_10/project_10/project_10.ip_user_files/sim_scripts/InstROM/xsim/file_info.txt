@@ -1,0 +1,2 @@
+InstROM.v,verilog,xil_defaultlib,../../../../project_10.srcs/sources_1/ip/InstROM/sim/InstROM.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

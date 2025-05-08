@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Apr 30 11:58:23 2025
+# Process ID: 24252
+# Current directory: D:/VivadoProject/project_9/project_9.runs/synth_1
+# Command line: vivado.exe -log MIPS.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MIPS.tcl
+# Log file: D:/VivadoProject/project_9/project_9.runs/synth_1/MIPS.vds
+# Journal file: D:/VivadoProject/project_9/project_9.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source MIPS.tcl -notrace
